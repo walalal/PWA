@@ -51,6 +51,16 @@ header{
     font-weight:900;
     box-shadow:0 0 4px 0 rgb(255,255,255);
 }
+.offline{
+   position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 40px;
+    color: #fff;
+    height: 40px;
+    text-align: center;
+    background: rgba(0,0,0,0.8);
+}
 @keyframes init{
     100%{
         top:30%;
