@@ -39,7 +39,7 @@ v1.1 test
         window.addEventListener('beforeinstallprompt',function(e){
         e.preventDefault();
         btnSave.removeAttribute('disabled');
-        savePrompt = e;
+        savedPrompt = e;
         return false;
     });
         btnSave.addEventListener('click',function(){
